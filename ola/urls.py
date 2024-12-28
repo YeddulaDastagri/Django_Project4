@@ -20,6 +20,6 @@ import food, ride
 
 urlpatterns = [
     path('admin/', admin.site.urls), 
-    path('food/', include('food.urls')), 
-    path('ride/', include('ride.urls')),
+    path('food/',include('food.urls')), 
+    path('ride/',include('ride.urls')),
 ]
